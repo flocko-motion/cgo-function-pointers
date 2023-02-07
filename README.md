@@ -4,7 +4,7 @@ This repo is a working example of [this Medium article](https://medium.com/@luc4
 ### How to compile
 ```
 cd go
-go build — buildmode=c-shared ./
+go build --buildmode=c-shared ./
 
 cd ..
 gcc -Wall -g main.c -o main go/function_pointers
